@@ -1,2 +1,2 @@
 [start]
-cmd = "python manage.py migrate && gunicorn predict_api.wsgi"
+cmd = "python manage.py migrate && gunicorn hdm.wsgi"
