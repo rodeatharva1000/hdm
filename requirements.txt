@@ -112,8 +112,7 @@ ml-dtypes==0.3.2
 more-itertools==10.2.0
 msgspec==0.19.0
 multidict==6.2.0
-mysql-connector-python==9.2.0
-mysqlclient==2.2.7
+
 namex==0.0.7
 nbclient==0.7.4
 nbconvert==7.14.0
