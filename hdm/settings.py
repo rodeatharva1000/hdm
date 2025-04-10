@@ -77,8 +77,8 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://*.railwy.app',
-    'https://*.railwy.live',
+    'https://*.railway.app',
+    'https://*.railway.live',
 ]
 
 
