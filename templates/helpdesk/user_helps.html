@@ -1,0 +1,24 @@
+{% include 'helpdesk/dashboard.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Help & Queries</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<div class="container my-5">
+    <h2 class="mb-4 text-success">Your Help & Queries</h2>
+
+    <div class="list-group">
+        {% for help in helps %}
+            <a href="{% url 'show_help_details' help.id %}" class="list-group-item list-group-item-action">
+                {{ help.help }}
+            </a>
+        {% endfor %}
+    </div>
+</div>
+
+</body>
+</html>
